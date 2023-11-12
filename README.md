@@ -1,1 +1,1 @@
-https://hekin43.github.io/rsschool-cv/
+# rsschool-cv
