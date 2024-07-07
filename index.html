@@ -12,30 +12,31 @@
 </head>
 
 <div class="main_box">
-	<main>
-		<div class="header">
-			<nav>
-				<ul class="nav">
-					<li>Contacts</li>
-					<li>About me</li>
-					<li>Skills</li>
-					<li>Experience</li>
-					<li>Education</li>
-					<li>English level</li>
-				</ul>
-			</nav>
-			<div class="img1">
-				<img src="assets/img/ponio-avatar.png" alt="avatar" width="180" height="180">
-			</div>
-			<div class="hd1"><h1 style="margin: 8px 0 4px 0;">Karima Yamaleeva</h1></div>
-			<div class="hd3"><p style="margin: 4px 0 4px 0;">Beginner front-end developer</p></div>
+	
+	<header class="cv_header">
+		<nav>
+			<ul class="navigate_panel">
+				<li>Contacts</li>
+				<li>About me</li>
+				<li>Skills</li>
+				<li>Experience</li>
+				<li>Education</li>
+				<li>English level</li>
+			</ul>
+		</nav>
+		<div class="img1">
+			<img src="img/ponio.jpg" class="img_class" alt="avatar">
 		</div>
+		<div class="hd1"><h1>Karima Yamaleeva</h1></div>
+		<div class="hd3"><p>Beginner front-end developer</p></div>
+	</header>
 
-		<section>
-			<div class="contacts">				
-				<h2 style="margin: 16px 8px 4px 10px; display: block;">Contacts</h2>
-				<div style="height: 4px;background: gray; width: 600px; text-align: center;"></div>
-				<ul style="list-style-type: none; padding-inline-start: 10px;">
+	<main>
+		<section class="section">
+			<div class="contacts_container">				
+				<h2 class="h2">Contacts</h2>
+				<div class="line"></div>
+				<ul class="contacts">
 					<li>
 						<p>Telegam - t.me/hekin43</p>
 					</li>
@@ -46,11 +47,11 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="section">
 			<div class="about_me">
-				<h2 style="margin: 16px 8px 4px 10px;">About me</h2>
-				<div style="height: 4px;background: gray; width: 600px;"></div>
-				<ul style="list-style-type: none; padding-inline-start: 10px;">
+				<h2 class="h2">About me</h2>
+				<div class="line"></div>
+				<ul class="contacts">
 					<li>
 						<p>My goal is to gain skills and knowledge in the field of front-end development</p>
 					</li>
@@ -61,7 +62,22 @@
 			</div>
 		</section>
 
-		<section>
+		<section class="section">
+			<div class="skills">
+				<h2 class="h2">Skills</h2>
+				<div class="line"></div>
+				<ul class="contacts">
+					<li>
+						<p>C, C++, Python languages</p>
+					</li>
+					<li>
+						<p>Adobe Illustrator, Photoshop, IDA Pro, Proccess Hacker and other</p>
+					</li>	
+				</ul>
+			</div>
+		</section>
+
+		<section  class="section">
 			<div class="skills">
 				<h2 style="margin: 16px 8px 4px 10px;">Skills</h2>
 				<div style="height: 4px;background: gray; width: 600px;"></div>
@@ -76,22 +92,7 @@
 			</div>
 		</section>
 
-		<section>
-			<div class="skills">
-				<h2 style="margin: 16px 8px 4px 10px;">Skills</h2>
-				<div style="height: 4px;background: gray; width: 600px;"></div>
-				<ul style="list-style-type: none; padding-inline-start: 10px;">
-					<li>
-						<p>C, C++, Python languages</p>
-					</li>
-					<li>
-						<p>Adobe Illustrator, Photoshop, IDA Pro, Proccess Hacker and other</p>
-					</li>	
-				</ul>
-			</div>
-		</section>
-
-		<section>
+		<section class="section">
 			<div class="code_example">
 				<h2 style="margin: 16px 8px 4px 10px;">Code example</h2>
 				<div style="height: 4px;background: gray; width: 600px;"></div>					
@@ -111,7 +112,7 @@ bool find_str(const char* mass1, char* mass2) const
 			</div>
 		</section>
 
-		<section>
+		<section class="section">
 			<div class="experience">
 				<h2 style="margin: 16px 8px 4px 10px;">Experience</h2>
 				<div style="height: 4px;background: gray; width: 600px;"></div>
@@ -126,7 +127,7 @@ bool find_str(const char* mass1, char* mass2) const
 			</div>
 		</section>
 
-		<section>
+		<section class="section">
 			<div class="education">
 				<h2 style="margin: 16px 8px 4px 10px;">Education</h2>
 				<div style="height: 4px;background: gray; width: 600px;"></div>
@@ -141,7 +142,7 @@ bool find_str(const char* mass1, char* mass2) const
 			</div>
 		</section>
 
-		<section>
+		<section class="section">
 			<div class="english">
 				<h2 style="margin: 16px 8px 4px 10px;">English level</h2>
 				<div style="height: 4px;background: gray; width: 600px;"></div>
@@ -154,13 +155,13 @@ bool find_str(const char* mass1, char* mass2) const
 		</section>
 	</main>
 
-	<footer>
+	<footer class="footer">
 		<div class='foot'>
-			<p>&copy;2023 by Karima Yamaleeva</p>
+			<p>&copy;2024 by Karima Yamaleeva</p>
 		</div>
 		<div class="box">
-			<a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="RS School logo" width="90" height="90" style="margin: 0px;"></a>
-			<a href="https://github.com/hekin43"><img src="assets/img/github-mark.svg" alt="Github logo" width="50" height="50" style="margin: 0px;"></a>
+			<a href="https://rs.school/courses/javascript-ru" class="link_rs"><img src="img/rs-school-logo.svg" alt="RS School logo" class="link_rs"></a>
+			<a href="https://github.com/hekin43" class="link_git"><img src="img/github.svg" alt="Github logo" class="link_git"></a>
 		</div>
 
 	</footer>
